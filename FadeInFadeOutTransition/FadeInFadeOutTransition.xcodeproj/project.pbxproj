@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC8EFCF01B95CA1300F580BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8EFCEF1B95CA1300F580BF /* AppDelegate.swift */; };
+		FC8EFCF21B95CA1300F580BF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8EFCF11B95CA1300F580BF /* FirstViewController.swift */; };
+		FC8EFCF51B95CA1300F580BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8EFCF31B95CA1300F580BF /* Main.storyboard */; };
+		FC8EFCF71B95CA1300F580BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8EFCF61B95CA1300F580BF /* Images.xcassets */; };
+		FC8EFCFA1B95CA1300F580BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8EFCF81B95CA1300F580BF /* LaunchScreen.xib */; };
+		FC8EFD061B95CA1300F580BF /* FadeInFadeOutTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8EFD051B95CA1300F580BF /* FadeInFadeOutTransitionTests.swift */; };
+		FC8EFD101B95D14B00F580BF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8EFD0F1B95D14B00F580BF /* SecondViewController.swift */; };
+		FC8EFD141B95DCA300F580BF /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8EFD131B95DCA300F580BF /* Shape.swift */; };
+		FC8EFD161B95E14200F580BF /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8EFD151B95E14200F580BF /* Animation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC8EFD001B95CA1300F580BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC8EFCE21B95CA1300F580BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC8EFCE91B95CA1300F580BF;
+			remoteInfo = FadeInFadeOutTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC8EFCEA1B95CA1300F580BF /* FadeInFadeOutTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FadeInFadeOutTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8EFCEE1B95CA1300F580BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8EFCEF1B95CA1300F580BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC8EFCF11B95CA1300F580BF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		FC8EFCF41B95CA1300F580BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC8EFCF61B95CA1300F580BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC8EFCF91B95CA1300F580BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC8EFCFF1B95CA1300F580BF /* FadeInFadeOutTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FadeInFadeOutTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8EFD041B95CA1300F580BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8EFD051B95CA1300F580BF /* FadeInFadeOutTransitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeInFadeOutTransitionTests.swift; sourceTree = "<group>"; };
+		FC8EFD0F1B95D14B00F580BF /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FC8EFD131B95DCA300F580BF /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		FC8EFD151B95E14200F580BF /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC8EFCE71B95CA1300F580BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8EFCFC1B95CA1300F580BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC8EFCE11B95CA1300F580BF = {
+			isa = PBXGroup;
+			children = (
+				FC8EFCEC1B95CA1300F580BF /* FadeInFadeOutTransition */,
+				FC8EFD021B95CA1300F580BF /* FadeInFadeOutTransitionTests */,
+				FC8EFCEB1B95CA1300F580BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC8EFCEB1B95CA1300F580BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC8EFCEA1B95CA1300F580BF /* FadeInFadeOutTransition.app */,
+				FC8EFCFF1B95CA1300F580BF /* FadeInFadeOutTransitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC8EFCEC1B95CA1300F580BF /* FadeInFadeOutTransition */ = {
+			isa = PBXGroup;
+			children = (
+				FC8EFCEF1B95CA1300F580BF /* AppDelegate.swift */,
+				FC8EFCF11B95CA1300F580BF /* FirstViewController.swift */,
+				FC8EFCF31B95CA1300F580BF /* Main.storyboard */,
+				FC8EFCF61B95CA1300F580BF /* Images.xcassets */,
+				FC8EFCF81B95CA1300F580BF /* LaunchScreen.xib */,
+				FC8EFCED1B95CA1300F580BF /* Supporting Files */,
+				FC8EFD0F1B95D14B00F580BF /* SecondViewController.swift */,
+				FC8EFD131B95DCA300F580BF /* Shape.swift */,
+				FC8EFD151B95E14200F580BF /* Animation.swift */,
+			);
+			path = FadeInFadeOutTransition;
+			sourceTree = "<group>";
+		};
+		FC8EFCED1B95CA1300F580BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC8EFCEE1B95CA1300F580BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC8EFD021B95CA1300F580BF /* FadeInFadeOutTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC8EFD051B95CA1300F580BF /* FadeInFadeOutTransitionTests.swift */,
+				FC8EFD031B95CA1300F580BF /* Supporting Files */,
+			);
+			path = FadeInFadeOutTransitionTests;
+			sourceTree = "<group>";
+		};
+		FC8EFD031B95CA1300F580BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC8EFD041B95CA1300F580BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC8EFCE91B95CA1300F580BF /* FadeInFadeOutTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8EFD091B95CA1300F580BF /* Build configuration list for PBXNativeTarget "FadeInFadeOutTransition" */;
+			buildPhases = (
+				FC8EFCE61B95CA1300F580BF /* Sources */,
+				FC8EFCE71B95CA1300F580BF /* Frameworks */,
+				FC8EFCE81B95CA1300F580BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FadeInFadeOutTransition;
+			productName = FadeInFadeOutTransition;
+			productReference = FC8EFCEA1B95CA1300F580BF /* FadeInFadeOutTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC8EFCFE1B95CA1300F580BF /* FadeInFadeOutTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8EFD0C1B95CA1300F580BF /* Build configuration list for PBXNativeTarget "FadeInFadeOutTransitionTests" */;
+			buildPhases = (
+				FC8EFCFB1B95CA1300F580BF /* Sources */,
+				FC8EFCFC1B95CA1300F580BF /* Frameworks */,
+				FC8EFCFD1B95CA1300F580BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC8EFD011B95CA1300F580BF /* PBXTargetDependency */,
+			);
+			name = FadeInFadeOutTransitionTests;
+			productName = FadeInFadeOutTransitionTests;
+			productReference = FC8EFCFF1B95CA1300F580BF /* FadeInFadeOutTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC8EFCE21B95CA1300F580BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Libra Studio, Inc.";
+				TargetAttributes = {
+					FC8EFCE91B95CA1300F580BF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FC8EFCFE1B95CA1300F580BF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FC8EFCE91B95CA1300F580BF;
+					};
+				};
+			};
+			buildConfigurationList = FC8EFCE51B95CA1300F580BF /* Build configuration list for PBXProject "FadeInFadeOutTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC8EFCE11B95CA1300F580BF;
+			productRefGroup = FC8EFCEB1B95CA1300F580BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC8EFCE91B95CA1300F580BF /* FadeInFadeOutTransition */,
+				FC8EFCFE1B95CA1300F580BF /* FadeInFadeOutTransitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC8EFCE81B95CA1300F580BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8EFCF51B95CA1300F580BF /* Main.storyboard in Resources */,
+				FC8EFCFA1B95CA1300F580BF /* LaunchScreen.xib in Resources */,
+				FC8EFCF71B95CA1300F580BF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8EFCFD1B95CA1300F580BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC8EFCE61B95CA1300F580BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8EFD101B95D14B00F580BF /* SecondViewController.swift in Sources */,
+				FC8EFCF21B95CA1300F580BF /* FirstViewController.swift in Sources */,
+				FC8EFCF01B95CA1300F580BF /* AppDelegate.swift in Sources */,
+				FC8EFD161B95E14200F580BF /* Animation.swift in Sources */,
+				FC8EFD141B95DCA300F580BF /* Shape.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8EFCFB1B95CA1300F580BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8EFD061B95CA1300F580BF /* FadeInFadeOutTransitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC8EFD011B95CA1300F580BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC8EFCE91B95CA1300F580BF /* FadeInFadeOutTransition */;
+			targetProxy = FC8EFD001B95CA1300F580BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC8EFCF31B95CA1300F580BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC8EFCF41B95CA1300F580BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC8EFCF81B95CA1300F580BF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC8EFCF91B95CA1300F580BF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC8EFD071B95CA1300F580BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC8EFD081B95CA1300F580BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC8EFD0A1B95CA1300F580BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FadeInFadeOutTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.librastudio.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC8EFD0B1B95CA1300F580BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FadeInFadeOutTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.librastudio.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC8EFD0D1B95CA1300F580BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FadeInFadeOutTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.librastudio.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FadeInFadeOutTransition.app/FadeInFadeOutTransition";
+			};
+			name = Debug;
+		};
+		FC8EFD0E1B95CA1300F580BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FadeInFadeOutTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.librastudio.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FadeInFadeOutTransition.app/FadeInFadeOutTransition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC8EFCE51B95CA1300F580BF /* Build configuration list for PBXProject "FadeInFadeOutTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8EFD071B95CA1300F580BF /* Debug */,
+				FC8EFD081B95CA1300F580BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8EFD091B95CA1300F580BF /* Build configuration list for PBXNativeTarget "FadeInFadeOutTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8EFD0A1B95CA1300F580BF /* Debug */,
+				FC8EFD0B1B95CA1300F580BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8EFD0C1B95CA1300F580BF /* Build configuration list for PBXNativeTarget "FadeInFadeOutTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8EFD0D1B95CA1300F580BF /* Debug */,
+				FC8EFD0E1B95CA1300F580BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC8EFCE21B95CA1300F580BF /* Project object */;
+}
