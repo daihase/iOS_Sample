@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Popup View Controller-->
+        <scene sceneID="7hI-eq-WnB">
+            <objects>
+                <viewController storyboardIdentifier="PopupViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1eQ-mu-dp9" customClass="PopupViewController" customModule="PopupViewSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f4d-oz-lCd"/>
+                        <viewControllerLayoutGuide type="bottom" id="hBc-z8-V03"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wtT-yy-q7C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vl0-8t-2r1">
+                                <rect key="frame" x="28.5" y="133" width="318.5" height="400.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pm0-W6-f8L">
+                                        <rect key="frame" x="20" y="340.5" width="278.5" height="40"/>
+                                        <color key="backgroundColor" red="0.11374215903043652" green="0.69493575507614214" blue="0.64122807415358452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="ZLh-HM-Dnc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="閉じる"/>
+                                        <connections>
+                                            <action selector="tapCloseButton:" destination="1eQ-mu-dp9" eventType="touchUpInside" id="O5e-AM-Xwj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Pm0-W6-f8L" secondAttribute="bottom" constant="20" id="5u4-hA-PdY"/>
+                                    <constraint firstItem="Pm0-W6-f8L" firstAttribute="leading" secondItem="vl0-8t-2r1" secondAttribute="leading" constant="20" id="OvQ-yc-AXN"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pm0-W6-f8L" secondAttribute="trailing" constant="20" id="cnp-NR-kl6"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vl0-8t-2r1" firstAttribute="width" secondItem="wtT-yy-q7C" secondAttribute="width" multiplier="0.85" id="Gvy-cu-jMk"/>
+                            <constraint firstItem="vl0-8t-2r1" firstAttribute="centerY" secondItem="wtT-yy-q7C" secondAttribute="centerY" id="Lw8-mc-2Gs"/>
+                            <constraint firstItem="vl0-8t-2r1" firstAttribute="height" secondItem="wtT-yy-q7C" secondAttribute="height" multiplier="0.6" id="YT7-Rt-P5x"/>
+                            <constraint firstItem="vl0-8t-2r1" firstAttribute="centerX" secondItem="wtT-yy-q7C" secondAttribute="centerX" id="whw-B9-Pnq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dht-x9-Zhh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="426" y="161"/>
+        </scene>
+    </scenes>
+</document>
