@@ -1,0 +1,16 @@
+PODS:
+  - Sketch (2.0)
+
+DEPENDENCIES:
+  - Sketch
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Sketch
+
+SPEC CHECKSUMS:
+  Sketch: c54b898799ba34cb282b57ff42b5d0a6071e855f
+
+PODFILE CHECKSUM: 59feb9b21e4728edc9073f6ffe070d764bcd068b
+
+COCOAPODS: 1.5.2

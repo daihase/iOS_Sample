@@ -1,0 +1,6 @@
+framework module Pods_Sketch_loadUrlImageTests {
+  umbrella header "Pods-Sketch_loadUrlImageTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
