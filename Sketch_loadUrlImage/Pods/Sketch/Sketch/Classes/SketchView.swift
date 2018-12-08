@@ -219,11 +219,19 @@ public class SketchView: UIView {
     }
 
     public func loadImage(image: UIImage) {
-        self.image = image
-        backgroundImage =  image.copy() as? UIImage
+       // self.image = image
+        
+        UIGraphicsBeginImageContextWithOptions(image.size, false, 0.0)
+        image.draw(in: CGRect(x: 0, y: 0, width: image.size.width, height: image.size.height))
+        let copy = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        backgroundImage = copy
+        //backgroundImage = copy?.copy() as? UIImage
+        self.image = copy
         bufferArray.removeAllObjects()
         pathArray.removeAllObjects()
-        updateCacheImage(true)
+        //updateCacheImage(true)
 
         setNeedsDisplay()
     }
@@ -258,5 +266,9 @@ public class SketchView: UIView {
 
     func canRedo() -> Bool {
         return bufferArray.count > 0
+    }
+    
+    public func checkPublic() {
+        
     }
 }

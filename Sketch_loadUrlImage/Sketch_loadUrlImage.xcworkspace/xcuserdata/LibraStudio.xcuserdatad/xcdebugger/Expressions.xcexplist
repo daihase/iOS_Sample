@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SketchView.updateCacheImage(_:):SketchView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "backgroundImage.copy() as! UIImage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SketchView.loadImage(image:):SketchView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "backgroundImage.image">
+            </PersistentString>
+            <PersistentString
+               value = "backgroundImage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ViewController.viewDidLoad():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imagUrl">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
