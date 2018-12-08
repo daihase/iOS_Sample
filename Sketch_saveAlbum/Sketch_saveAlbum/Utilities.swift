@@ -11,6 +11,7 @@ class Utilities {
     private init() {}
     static let shared = Utilities()
     
+    // Alert
     class func showAlert (title: String?, message: String?, cancel: String?, destructive: [String]?, others: [String]?, parent: UIViewController, callback: @escaping (Int) -> ()) {
         if title == nil && message == nil && cancel == nil && destructive == nil && others == nil {
             return
