@@ -61,6 +61,13 @@ class ViewController: UIViewController {
 
 extension ViewController: PSPhotoManagerDelegate {
     func successSaveImage() {
-       print("saved")
+        Utilities.showAlert(title: "Confirm",
+                            message: "Success!",
+                            cancel: nil,
+                            destructive: nil,
+                            others: ["OK"],
+                            parent: self) {
+                                (buttonIndex: Int) in
+        }
     }
 }
